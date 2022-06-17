@@ -9,7 +9,7 @@ const Header = () => {
   const handleLogInClick = async () => {
     const { ethereum } = window;
     if (!ethereum) {
-      alert("У вас нет метамаска!");
+      alert("You don't have a metamsk :(");
     }
 
     try {
